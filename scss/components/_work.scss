@@ -1,0 +1,61 @@
+.work{
+    padding-top: 68px;
+}
+
+.work__wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.work__slogon{
+    color: $title-color;
+    font-family: Kaushan Script;
+    font-size: 24px;
+    font-weight: 400;    
+    margin-bottom: 20px;    
+}
+
+.work__title{
+    color: $title-color;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.work__line{
+    width: 60px;
+    height: 4px;
+    background-color: $hover-color;
+    margin-bottom: 65px;
+    margin: 0 auto;
+}
+
+.work__card-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+
+.work__card-img{
+    margin-right: 18px;
+    width: 37px;
+    height: 37px;
+}
+
+.work__card-title{
+    color: $title-color;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.work__card-text{
+    color: $text-color;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;   
+}

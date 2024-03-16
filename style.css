@@ -1,0 +1,158 @@
+
+
+ul{list-style: none;}
+
+
+
+body{
+    margin: 0 auto;
+    
+}
+
+
+
+.container{
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+    a{
+        text-decoration: none;
+    }
+
+    /* 
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+     */
+        
+
+     /* header */
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.our-team-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-team-text{
+    color: var(--text-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+
+.our-team-card{
+    
+    width: 380px;
+}
+
+.our-team-img{
+    margin-bottom: 30px;
+    width: 380px;
+    height: 470px;
+}
+
+
+
+.worker-name{
+    color: var(--title-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 11px;
+    text-align: center;
+}
+
+.our-team{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.profesion-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.profesion{
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;   
+    text-align: center;
+}
+
+.foot-text{
+    color: var(--title-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Laaqiq{
+    color: var(--hover-color);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.footer-container{
+    border-top: 1px solid var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.foot-btn{
+    background-color: var(--logo-color);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 11px 38px;
+    border: none;
+    text-transform: uppercase;
+    margin-left: -20px;
+}
+
+.input{
+    padding: 8px 145px 8px 10px;
+}

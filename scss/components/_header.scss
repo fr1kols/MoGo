@@ -1,0 +1,40 @@
+.header{
+    padding-top: 17px;
+}
+
+.header__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo{
+    color: $logo-color;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+}  
+
+.navigation__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+.navigation__item{
+    color: $logo-color;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    &:hover,
+    &:focus{
+    color: $hover-color;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom:  3px solid $hover-color;
+    padding-bottom: 10px;
+}
+}
+
+
